@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Validation</title>
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+Username:
+<input type="text" id="username"><br><br>
+
+Password:
+<input type="password" id="password"><br><br>
+
+<button onclick="validate()">Login</button>
+
+<script>
+
+function validate(){
+
+    let user =
+    document.getElementById("username").value;
+
+    let pass =
+    document.getElementById("password").value;
+
+    if(user=="admin" && pass=="admin123"){
+
+        alert("Login Successful");
+
+    }
+    else{
+
+        alert("Invalid Credentials");
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
