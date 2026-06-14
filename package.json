@@ -8,8 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "selenium-webdriver": "^4.44.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regondashiva/college-website-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/regondashiva/college-website-test/issues"
+  },
+  "homepage": "https://github.com/regondashiva/college-website-test#readme",
+  "description": ""
 }
